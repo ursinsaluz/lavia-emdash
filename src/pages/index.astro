@@ -52,7 +52,7 @@ const gridPostsWithTags = await Promise.all(
 // Format date helper
 function formatDate(date: Date | null | undefined) {
 	if (!date) return null;
-	return date.toLocaleDateString("en-US", {
+	return date.toLocaleDateString("de-CH", {
 		year: "numeric",
 		month: "long",
 		day: "numeric",

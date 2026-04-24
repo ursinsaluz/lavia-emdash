@@ -8,27 +8,21 @@
 	],
 	"d1_databases": [
 		{
-			"binding": "lavia_emdash_site",
+			"binding": "DB",
 			"database_name": "lavia-emdash-site",
-			"database_id": "9ffc9b88-d734-4f7a-b8e7-af7ee688d0eb",
-			"remote": true
+			"database_id": "9ffc9b88-d734-4f7a-b8e7-af7ee688d0eb"
 		}
 	],
 	"r2_buckets": [
 		{
 			"binding": "MEDIA",
-			"bucket_name": "lavia-emdash-media",
-		},
-		{
-			"bucket_name": "lavia-emdash-media",
-			"binding": "lavia_emdash_media",
-			"remote": true
-		},
+			"bucket_name": "lavia-emdash-media"
+		}
 	],
-	// Worker Loader for plugin sandboxing
-	"worker_loaders": [
+	"kv_namespaces": [
 		{
-			"binding": "LOADER",
-		},
-	],
+			"binding": "SESSION",
+			"id": "5e498160af0a429da16b90fdbe48c009"
+		}
+	]
 }

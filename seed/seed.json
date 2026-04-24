@@ -8,8 +8,8 @@
 	},
 
 	"settings": {
-		"title": "My Blog",
-		"tagline": "Thoughts on building for the web"
+		"title": "Sexualberatung Lavia",
+		"tagline": "Olivia Zurlinden & Ladina Engler"
 	},
 
 	"collections": [
@@ -50,6 +50,27 @@
 			"label": "Pages",
 			"labelSingular": "Page",
 			"supports": ["drafts", "revisions", "search"],
+			"fields": [
+				{
+					"slug": "title",
+					"label": "Title",
+					"type": "string",
+					"required": true,
+					"searchable": true
+				},
+				{
+					"slug": "content",
+					"label": "Content",
+					"type": "portableText",
+					"searchable": true
+				}
+			]
+		},
+		{
+			"slug": "ct_content_block",
+			"label": "Content Blocks",
+			"labelSingular": "Content Block",
+			"supports": ["search"],
 			"fields": [
 				{
 					"slug": "title",
