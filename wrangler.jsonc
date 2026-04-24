@@ -10,7 +10,8 @@
 		{
 			"binding": "DB",
 			"database_name": "lavia-emdash-site",
-			"database_id": "9ffc9b88-d734-4f7a-b8e7-af7ee688d0eb"
+			"database_id": "9ffc9b88-d734-4f7a-b8e7-af7ee688d0eb",
+			"remote": true
 		}
 	],
 	"r2_buckets": [
