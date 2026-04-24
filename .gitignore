@@ -5,3 +5,5 @@ uploads
 data.db
 .claude
 .agents
+.wrangler
+.env
